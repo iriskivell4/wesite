@@ -1,0 +1,63 @@
+/* Website styles */
+
+* {
+font size: 100%
+font-family: helvetica, arial;
+}
+
+body {
+  backround-color: whitesmoke;
+  color: Darkslateblue;
+  /*font-family: "East Sea Dokdo", cursive; */
+  font-weight: bold;
+}
+
+h1 {
+  color: red;
+  font-family: Helvetica,Arial;
+  font size: 36px;
+  font-style: italic;
+}
+
+h2 {
+  color: green
+  font size: 24px;
+  font-weight: 100;
+  font-style: oblique;
+}
+h3 {
+  font-size: 18px
+  font-style:normal;
+}
+}
+
+header {
+  color: rbg(44,44,44,);
+  /*backround-color: yellow;*/
+}
+section p {
+  color: red;
+  font size: 24pt;
+
+  /* backround-color: grey; */
+}
+
+p {
+  color: black
+  font size:24px;
+  /* backround-color: grey */
+  line-height: 2;
+  text-align: left;
+}
+section {
+  color: blue;
+  backround-color: Grey;
+}
+
+p {
+  color: red:
+}
+footer {
+  color: aqua;
+  backround-color: aqua;
+}
