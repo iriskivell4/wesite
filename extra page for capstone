@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>lesson 6</title>
+  <meta charaset="utf-8">
+</head>
+
+<body>
+  <!--My website -->
+  <!--using the element-->
+<header>
+<h1>Using CSS stylesheet<h1>
+</header>
+
+            <h2>="Tseshaht Market"<h2>
+          <h3>Orange Canabis <h3>
+          <h4>Administration <h4>
+          <h5>Tsesht Daycare<h5>
+          <h6>Tseshaht Fisheries <h6>
+
+<section>
+  <!--This is the main section-->
+  <!-- the p element and the div element  -->
+    <div>
+      <p><!--This is a short Paragraph. <p>
+
+      <div>
+        <p>  this is a much longer in this oart i will explain what my website has to offer .......................................................................................................................................<p>
+  </div>
+
+  </div>
+</section>
+
+<!-- Using list-->
+<section>
+  <h2>Ordered list - most important first</h2>
+    <ol>
+          <li>most important first</li>
+          <li> next important </li>
+        <li> Least important </li>
+    </ol>
+</section>
+
+<section>
+  <h2>Unordered list - Importance doesn't matter</h2>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2- just as important</li>
+      <li>Item 3 - Just as important</li>
+      </ul>
+  </section>
+
+
+<footer>
+  <p> website created my I. kivell Tshahaht </p>
+<footer>
+
+<body>
+</html>
