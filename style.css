@@ -1,18 +1,17 @@
 /* Website styles */
-
+\
 * {
 font size: 100%
 font-family: helvetica, arial;
-border:1px solid red;
+/*border:1px solid red;*/
 margin: 10;
 line-height: 2;
 box-sizing: border-box;
 }
-
 body {
-backround-color: red;
-  color: blue;
-  font-family: "East Sea Dokdo", cursive;
+  backround-color: red;
+  color: Darkslateblue;
+  /*font-family: "East Sea Dokdo", cursive; */
 margin: 50px;
 }
 
@@ -20,13 +19,13 @@ margin: 50px;
 
 h2 {
   color: green
-  font size: px;
+  font size: 24px;
   font-weight: 100;
   font-style: oblique;
 }
 h3 {
-  font-size: 40px
-  font-style: italic;
+  font-size: 18px
+  font-style:normal;
 }
 }
 
@@ -37,9 +36,9 @@ header {
   margin-bottom: 20px;
 }
 section p  {
-  color: oblique;
+  color: red;
   font size: 40pt;
-  backround-color: oblique;
+  backround-color: aqua;
   border: 1px solid gainsboro;
   margin: 30px;
   padding: 50px;
@@ -53,12 +52,12 @@ p {
   backround-color: grey;
   line-height: 2;
   text-align: left;
-  text-decoration: none;
+  text-decoration: underline;
 }
 section {
   color: blue;
   font-size: 24pt;
-  backround-color: Grey;
+  backround-color: aqua;
 }
 
 p {
@@ -94,7 +93,7 @@ ul, ol {
   margin: 15px 0;
 }
 header, section, footer {
-  padding
+  padding:30px
 }
 footer {
   color: black;
@@ -121,4 +120,8 @@ a:visited {
 atom-text-editor {
   // color: white;
   // background-color: hsl(180, 24%, 12%);
+}
+.container{
+  max width: 1000px
+  margin:0 auto;
 }
