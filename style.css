@@ -126,7 +126,8 @@ atom-text-editor {
   margin:0 auto;
 }
 .box {
-  background-image: url(images/texturebr.jpg);
+  background-image: url(images/texturebr.jpeg);
+  background-repeat: repeat;
 
 
 }
