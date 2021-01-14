@@ -32,8 +32,8 @@ h3 {
 
 header {
   color: rbg(44,44,44,);
-  /*backround-color: yellow;*/
-  bottom-border: 2px solid grey;
+  backround-color: yellow;
+  bottom-border: 10px solid grey;
   margin-bottom: 20px;
 }
 section p  {
@@ -116,4 +116,9 @@ text-decoration: none;
 }
 a:visited {
   color: blue;
+}
+// style the background and foreground colors on the atom-text-editor-element itself
+atom-text-editor {
+  // color: white;
+  // background-color: hsl(180, 24%, 12%);
 }
