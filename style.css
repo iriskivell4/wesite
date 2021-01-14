@@ -10,7 +10,7 @@ box-sizing: border-box;
 }
 
 body {
-  backround-color: whitesmoke;
+  backround-color: red;
   color: Darkslateblue;
   /*font-family: "East Sea Dokdo", cursive; */
 margin: 50px;
@@ -38,11 +38,11 @@ header {
 }
 section p  {
   color: red;
-  font size: 12pt;
-  backround-color: white;
+  font size: 40pt;
+  backround-color: oblique;
   border: 1px solid gainsboro;
   margin: 30px;
-  padding: 30px;
+  padding: 50px;
   width: 80%
   height:80%
 }
