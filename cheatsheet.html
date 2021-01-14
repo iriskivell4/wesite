@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="utf-8">
+</head>
+<body>
+  Boilerplate
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <title></title>
+      <meta charset="utf-8">
+  </head>
+  <body>
+  </body>
+  </html>
+  Every web page includes the following parts:
+
+  a doctype tag
+  an html element
+  a head element
+  a title element
+  a body element
+
+
+  Doctypes
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="utf-8">
+</head>
+<body>
+</body>
+</html>
+All HTML documents require a doctype to tell the browser which version of HTML we are using. It must be the first line in the file. Without it, browsers will still show the document but may have unexpected results.
+
+
+
+The html Element
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="utf-8">
+</head>
+<body>
+</body>
+</html>
+The html tag is always the first tag in the document. It is the root or parent element. All other elements are stored or “nested” inside. The lang attribute classifies the language that the content will be in. Many lang values are available like fr for French or es for Spanish.
+
+
+The head Element
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="utf-8">
+</head>
+<body>
+</body>
+</html>
+The head element includes information about the page, but does not display content. Things like CSS, JavaScript, and metadata can be included here. The <title> is the only required tag inside of this element.
+
+
+The title Element
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="utf-8">
+</head>
+<body>
+</body>
+</html>
+The title element lives inside the <head> element. It sets the title of the page which is displayed at the top of the browser tab. Always include this in the <head>.
+
+  The meta Element
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="utf-8">
+</head>
+<body>
+</body>
+</html>
+The meta tag is used to set “metadata” (data about data) for a web page. There a number of uses for meta tags depending on the website. They live inside the <head> element of a web page.
+
+The charset attribute defines the version of Unicode that we wish to use. UTF-8 is a common standard for handing the characters used in the world’s writing systems. Always include this in the <head> to avoid character display issues.
+
+
+The body Element
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="utf-8">
+</head>
+<body>
+</body>
+</html>
+All content to be displayed in the browser goes in between the <body> and </body> tags. It is also known as the “viewport”. This is where we will be spending most of our time.
+
+Instructions
+This activity will give you the opportunity to apply the knowledge from Lesson: Parts of an HTML File into your website.
+
+Add a doctype:
+
+At the top of your index.html file add the following doctype for HTML5
+<!DOCTYPE html>
+Press Ctrl + S to save your file
+Add an html tag:
+
+In your index.html file add the following on the line below your <!DOCTYPE> tag
+<html lang="en">
+</html>
+Press Ctrl + S to save your file
+Add a head and title tag:
+
+Inside the <html> and </html> elements put the <head>
+Choose a title for your website and put it between the <title> and </title>
+<head>
+    <title>My Website</title>
+</head>
+Add a metadata tag:
+
+Inside the <head> and </head>, add a new line below the <title>
+Add the following meta tag
+<head>
+    <title>Your title</title>
+    <meta charset="utf-8">
+</head>
+Add the body tag:
+
+Below the second (“closing”) </head> element, put the <body> and </body> tags
+Everything else that we add inside the <body> will be indented at least once
+<body>
+</body>
+Does your website look like this?
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My website</title>
+    <meta charset="utf-8">
+</head>
+<body>
+</body>
+</html>
+Preview your website:
+
+Open File Explorer and navigate to your website folder
+My Documents > Code > website
+Double click on index.html and wait for Windows to open your page in Google Chrome
+If it does not open in Chrome, Right-click on index.html and select Open with > Chrome
+Make sure your page is blank
+Press Ctrl + U to view the source code in a new tab
+Press Ctrl + Shift + I to open the Chrome Developer Tools
+Click on the Elements tab to preview your HTML code that way
+
+
+
+
+
+  HTML Comments
+<!-- Hello there! -->
+
+<!--
+<p>Hide me</p>
+-->
+
+Comments are blocks of text that the computer does not consider code and does not display. Comments are useful for leaving notes for yourself (or others) or for hiding code.
+
+<!—— will open a comment
+——> will close a comment
+
+
+The p Element
+<p>This is a short paragraph</p>
+
+<p>This is a longer paragraph. It
+can include multiple sentences and
+ span many lines.</p>
+p is short for paragraph. It is used for longer blocks of text. There is no limit on length and it can include multiple sentences.
+
+The div element
+<div>
+   <div></div>
+</div>
+The div element has no semantic meaning and is used to group related content. <div> elements can be nested inside other <div> elements as needed.
+
+  Grouping Elements
+  <header>
+      <h1>Main Title</h1>
+  </header>
+
+  <section>
+      <h1>Section Title</h1>
+      <p>This is a section.</p>
+  </section>
+
+  <footer>
+      <p>This is a footer.</p>
+  </footer>
+  There are other grouping elements that work similarly
+
+  header, footer, section, article, nav, main
+  These tags are used to provide order and structure to our website.
+
+  Think of grouping elements like “islands” or “continents” on a vast ocean. The ocean is the <body> of water. Elements like <h1> and <p> are allowed to travel on the open ocean, but it’s a lot easier over land. One way to think about the ordering of grouping elements is like layers of toppings on a burger:
+
+  The top bun is the <header>
+  The bottom bun in the <footer>
+  Everything in between is a <section> or a similar grouping element
+
+    The header Element
+<header>
+    <h1>Main Title</h1>
+</header>
+The header element is usually placed at the top of the page. We generally don’t have more than one <header> on a page. It is not to be confused with the <head> tag.
+
+  The section Element
+<section>
+    <h1>Section Title</h1>
+    <p>This is a section.</p>
+</section>
+The section element works the same way as <header>. We can have as many <section> tags as we need on a page. It is common to place <section> tags inside a <main> tag.
+
+  The footer Element
+  <footer>
+      <p>This is a footer.</p>
+  </footer>
+  The footer element works the same way as <header> but it is usually at the bottom of a page. It is generally used only once per page.
+
+    The ul and ol Elements
+    <ol>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ol>
+    ol is short for ordered list. ul is short for unordered list. Child elements are always <li> elements which stands for list item.
+
+    Using <ol> will number the items and using <ul> will display bullets instead of numbers. Everything else is exactly the same.
+
+      Nesting Lists
+<ol>
+  <li>First parent item
+    <ul>
+      <li>First child item</li>
+      <li>Second child item</li>
+    </ul>
+  </li>
+  <li>Second parent item</li>
+  <li>Third parent item</li>
+</ol>
+Both <ol> and <ul> can be nesting inside <li> elements to create sub-lists. Be careful with your indentation to avoid nesting errors!
+<link rel="stylesheet" href="style.css">
+</body>
+</html>
