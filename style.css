@@ -9,7 +9,7 @@ line-height: 2;
 box-sizing: border-box;
 }
 body {
-backround-color: aqua;
+background-color: pink;
   color: Darkslateblue;
   /*font-family: "East Sea Dokdo", cursive; */
 margin: 50px;
@@ -124,4 +124,9 @@ atom-text-editor {
 .container{
   max width: 1000px
   margin:0 auto;
+}
+.box {
+  background-image: url(images/texturebr.jpg);
+
+
 }
