@@ -3,16 +3,16 @@
 * {
 font size: 100%
 font-family: helvetica, arial;
-/*border:1px solid red;*/
-margin: 0;
-line-height: 1;
+border:1px solid red;
+margin: 10;
+line-height: 2;
 box-sizing: border-box;
 }
 
 body {
-  backround-color: red;
-  color: Darkslateblue;
-  /*font-family: "East Sea Dokdo", cursive; */
+backround-color: red;
+  color: blue;
+  font-family: "East Sea Dokdo", cursive;
 margin: 50px;
 }
 
@@ -20,13 +20,13 @@ margin: 50px;
 
 h2 {
   color: green
-  font size: 24px;
+  font size: px;
   font-weight: 100;
   font-style: oblique;
 }
 h3 {
-  font-size: 18px
-  font-style:normal;
+  font-size: 40px
+  font-style: italic;
 }
 }
 
@@ -37,7 +37,7 @@ header {
   margin-bottom: 20px;
 }
 section p  {
-  color: red;
+  color: oblique;
   font size: 40pt;
   backround-color: oblique;
   border: 1px solid gainsboro;
@@ -48,12 +48,12 @@ section p  {
 }
 
 p {
-  color: black
-  /*font size:24px;*/
-  /* backround-color: grey */
+  color: red;
+  font size:40:px;
+  backround-color: grey;
   line-height: 2;
   text-align: left;
-  text-decoration: underline;
+  text-decoration: none;
 }
 section {
   color: blue;
