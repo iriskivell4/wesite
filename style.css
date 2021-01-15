@@ -6,11 +6,11 @@ font-family: helvetica, arial;
 /*border:1px solid red;*/
 margin: 10;
 line-height: 2;
-box-sizing: border-box;
+box-sizing: content-box;
 }
 body {
-background-color: pink;
-  color: orange;
+background-color: aqua;
+  color: white;
   /*font-family: "East Sea Dokdo", cursive; */
 margin: 50px;
 }
@@ -61,8 +61,8 @@ section {
 }
 
 p {
-    color: skyblue;
-    /*font size:24px;*/
+    color: blue;
+    font size:24px;*/
     line-height: 1;
     text-align: justify;
     border: 2px dotted red;
@@ -72,7 +72,7 @@ p {
     margin-left 0;
     padding: 30px;
     width: 80%;
-    background-image: url(images/TsehsahtCanoe.jpg);
+    */ background-image: url(images/TsehsahtCanoe.jpg); */
     background-repeat: repeat;
 
 
@@ -88,7 +88,7 @@ img {
 }
 
 h1, h2, h3 {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 ul, ol {
@@ -99,8 +99,8 @@ header, section, footer {
 }
 footer {
   color: black;
-  backround-color: aqua;
-text-decoration: underline;
+  backround-color: limegreen;
+text-decoration:  none;
 margin: 10px 20px 30px 10px;
 }
 
@@ -128,9 +128,9 @@ atom-text-editor {
   margin:0 auto;
 }
 .box {
-  background-image: url(images\texturebr.jpeg)
+  background-image: url(images\tsemap.jpg)
   background-repeat: no-repeat;
 
 
 }
-.banner{
+.banner{*/
