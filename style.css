@@ -10,12 +10,12 @@ box-sizing: border-box;
 }
 body {
 background-color: pink;
-  color: Darkslateblue;
+  color: orange;
   /*font-family: "East Sea Dokdo", cursive; */
 margin: 50px;
 }
 
-\
+<div class="banner"<div/>
 
 h2 {
   color: green
@@ -31,8 +31,8 @@ h3 {
 
 header {
   color: rbg(44,44,44,);
-  backround-color: yellow;
-  bottom-border: 10px solid grey;
+ backround-color: yellow;
+bottom-border: 40px solid grey;
   margin-bottom: 20px;
 }
 section p  {
@@ -61,17 +61,19 @@ section {
 }
 
 p {
-    color: black;
+    color: skyblue;
     /*font size:24px;*/
     line-height: 1;
     text-align: justify;
-    border: 1px dotted red;
+    border: 2px dotted red;
     margin-top: 10px
     margin-bottom: 20px;
     margin-right: 30px
     margin-left 0;
     padding: 30px;
     width: 80%;
+    background-image: url(images/TsehsahtCanoe.jpg);
+    background-repeat: repeat;
 
 
 }
@@ -126,8 +128,9 @@ atom-text-editor {
   margin:0 auto;
 }
 .box {
-  background-image: url(images/texturebr.jpeg);
-  background-repeat: repeat;
+  background-image: url(images\texturebr.jpeg)
+  background-repeat: no-repeat;
 
 
 }
+.banner{
