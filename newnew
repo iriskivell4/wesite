@@ -11,8 +11,11 @@
 <header>
 <h1>Using CSS stylesheet<h1>
 </header>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href= https://fonts.gstatic.com>
+<link rel="http://fonts.googleapis.com/css2?family=East+Sea+dokdo&display=swap" rel="stylesheet">
 
-     
+
 
 <section>
   <!--This is the main section-->
@@ -66,7 +69,7 @@ I enjoy living on Vancouver Island because it has great lakes, river and mountai
 
 
 <footer>
-  <p> website created my I. kivell Tshahaht </p>
+  <p> website created my I. kivell Tshahaht member </p>
 <footer>
 
 <body>
